@@ -77,7 +77,9 @@ hr{
     text-decoration: none;
     color: white;
 }
-
+.menu a.active {
+    color:green;
+}
 
 /*exe1*/
 
@@ -105,41 +107,25 @@ hr{
     outline: 10px solid #0D1430;      
     box-shadow: 0 0 0 30px #90ffa9;
 }
-.padding{
+.padding, .border, .outline, .shadow{
     display: inline-block;
     width: 15px;
     height: 15px;
-    background-color: #99d8ca;
     border-radius: 50%;
     border: 1px solid black ;
     margin-bottom: -2px;
+}
+.padding{
+    background-color: #99d8ca;
 }
 .border{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
     background-color: #5873E2;
-    border-radius: 50%;
-    border: 1px solid black ;
-    margin-bottom: -2px;
 }
 .outline{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
     background-color: #0D1430;
-    border-radius: 50%;
-    border: 1px solid black ;
-    margin-bottom: -2px;
 }
 .shadow{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
     background-color: #90ffa9;
-    border-radius: 50%;
-    border: 1px solid black ;
-
 }
 .footer{
     margin: 20px 0;
